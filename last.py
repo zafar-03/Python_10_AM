@@ -5,8 +5,8 @@
 # output = num_1/num_2   # infinite
 
 # print(output)
-num_1 =12
-num_2 = 0
+# num_1 =12
+# num_2 = 0
 
 # try:            # Try Block 
 #     output = num_1/num_2
@@ -48,3 +48,104 @@ num_2 = 0
 
 
 # Bugs : memory : 32/64  : binary : 0/1 :   1971  : 2038  18 jul ,2038
+
+
+
+# num_1 =12
+# num_2 = 3
+
+# try:
+#     output = num_1/num_2
+#     # print(int("Raj"))
+# except ZeroDivisionError:
+#     print("Zero Division Error")
+# except :
+#     print("Error")
+# else:
+#     print(output)
+# finally:
+#     print("Final Block")
+
+
+# raise keyword : 
+
+# saving : 100000 ,50000, 2lac/
+
+# custom Exeption 
+class MyException(Exception):
+    pass
+
+balance = 10000
+
+# def withdraw(balance,amount):
+#     if(balance<amount):
+#         raise MyException()
+#     balance-=amount
+#     print("Withdraw Successful : current balance :",balance)
+
+
+# try:
+#     withdraw(balance,12000)
+# except MyException:
+#     print("Not Possible")
+
+# custom Exception 
+# assert
+
+#  global 
+#  local  :::::
+
+
+# Exception : 
+# 1. Built in
+# 2. Custom (user defined)
+
+# =====================================================
+
+# raise  keyword
+# Custom exception
+# assert keyword
+
+# class AgeLimitError(Exception):
+#     pass
+
+
+
+# age =12
+
+# if(age >=18):
+#     print ("Voting")
+# else:
+#     raise AgeLimitError("Age must be Greater than or Equal to 18")
+
+# print(12/0)
+
+# try:
+#     if(age >=18):
+#         print ("Voting")
+#     else:
+#         raise AgeLimitError("Age must be Greater than or Equal to 18")
+# except ZeroDivisionError:
+#     print("ZeroDivisionError")
+# except AgeLimitError as error:
+#     print(error)
+# else:
+#     print("try Block Successfully Executed")
+# finally:
+#     print("Completed")
+
+
+
+# age = 12
+
+# try:
+#     assert age>=18
+# except AssertionError:
+#     print("Point Breakdown")
+# else:
+#     print(age)
+# finally:
+#     print("Completed")
+
+
+# assert age>=18
