@@ -12,4 +12,6 @@ lorem
 - JS
 - PYTHON
 
-### Heading 3
+### Welcome Menu:
+
+!["Output Image1"](Ouput/1.png)
